@@ -32,10 +32,10 @@
 
     FRONT-END 📺
 
-    login-page
+    - Entrar no projeto
     $ cd login-page
 
-   - Instalar todas dependências do repositorio clonado
+    - Instalar todas dependências do repositorio clonado
     $ yarn install ou apenas yarn
     ou
     $ npm i ou npm install
