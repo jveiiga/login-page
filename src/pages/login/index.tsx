@@ -96,7 +96,7 @@ export const Login = () => {
                                 borderWidth={1}
                                 borderColor={isFocused ? 'blue.400' : 'gray.200'}
                                 borderRadius="md"
-                                placeholder="thomas@mail.com"
+                                placeholder="kenzinho@mail.com"
                                 _placeholder={{ color: "gray" }}
                                 {...register("email")}
                             />
