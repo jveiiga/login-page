@@ -1,0 +1,27 @@
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+.login-container {
+    width: 100%;
+    background-image: linear-gradient(to left, #000000, #D2AA42, #E30614 );
+    background-size: 500% 100%;
+    animation: gradientAnimation 19s infinite alternate;
+}
+
+@keyframes gradientAnimation {
+    0% {
+        background-position-x: 0%;
+    }
+    100% {
+        background-position-x: 100%;
+    }
+}
